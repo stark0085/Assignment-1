@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 1</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="utilities.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navigationBar flex justify-space-between px-2 my-2"">
+        <div class=" logo"><img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4VBxswGB2ryUaX_VqFuA5W7Lelwq1OmTUlg&s"
+                alt="Pf-Image" class="pflogo"></div>
+            <div class="secoptions">
+                <ul class="flex">
+                    <li><a href="#introduction">Introduction</a></li><li><a href="#myprojects">My Projects</a></li><li><a href="#skillsAchievements">Skills & Achievements</a></li><li><a href="#contactMe">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <hr>
+    <main class="mx-3 p-1" style=" margin-top: 4rem;">
+        <div style="visibility: hidden; height: 8vh;" id="introduction"></div>
+        <div class="home flex ">
+            <section class="left p-1 flex flex-column">
+                <p class="text-center p-1 intro" id="introline">The best way to predict the future is to invent it.</p>
+                <h1 class="text-center " id="myname">I'm a Web Developer <br>Aayush Vijay</h1>
+                <p class="text-center p-1 intro" id="tagline">With expertise in both front-end and back-end development,
+                    I
+                    deliver robust and scalable web applications. Your vision, my code.</p>
+                <button class="introBtn align-item-center justify-item-center"><a href="#contactMe">Contact
+                        Me</a></button>
+            </section>
+            <section class="right mx-1 p-1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit nisi
+                veritatis
+                necessitatibus, quia quaerat aspernatur mollitia ratione nihil rem voluptatem.</section>
+            </div>
+            <div style="visibility: hidden; height: 5vh;" id="myprojects"></div>
+        <div class="projects my-3">
+            <hr>
+            <h1 class="my-2">My Projects</h1>
+            <h3 class="my-2">My Journey of Innovation</h3>
+            <!-- check margin for the container from left and right side its not equal -->
+            <div class="cardsfolder flex my-3 flex-wrap">
+                <div class="cards position-relative">
+                    <h3 class="text-center">Youtube Clone</h3>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkLcCyQrfAEpZmHKLAPIfpl8sB0TIAXuKdFA&s"
+                        alt="image">
+                    <button class="btn">Visit</button>
+                </div>
+                <div class="cards position-relative">
+                    <h3 class="text-center">Avengers Store</h3>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSv0cNkYvV44r3x2TG1GuIlTGulsmFXLqsA9w&s"
+                        alt="image">
+                    <button class="btn">Visit</button>
+                </div>
+                <div class="cards position-relative">
+                    <h3 class="text-center">Stark Designs</h3>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTh_eWNcSfQyKcye9raE60bUzzLfNPd22nmAw&s"
+                        alt="image">
+                    <button class="btn">Visit</button>
+                </div>
+                <div class="cards position-relative">
+                    <h3 class="text-center">Stark Blog$$</h3>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIF6NRnzFD2Zpfdq7gLk-KWKVG-inRwgTXmA&s"
+                        alt="image">
+                    <button class="btn">Visit</button>
+                </div>
+                <div class="cards position-relative">
+                    <h3 class="text-center">Amazon Clone</h3>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_cuZTPjF5eLfPqWy2iwvOdqReDDoZELpY0g&s"
+                        alt="image">
+                    <button class="btn" onclick="document.querySelectorAll(`.btn`).innerHTML='Visited'">Visit</button>
+                </div>
+                <div class="cards position-relative">
+                    <h3 class="text-center">Smart Homes</h3>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnnc05InKs2VqxvRzQ04jN4XJrzFal1bfKBw&s"
+                        alt="image">
+                    <button class="btn">Visit</button>
+                </div>
+            </div>
+        </div>
+        <div style="visibility: hidden; height: 5vh;" id="skillsAchievements"></div>
+        <div class="achievements my-3">
+            <hr>
+            <h1 class="my-2">My Skills & Achievements</h1>
+            <h3 class="my-2">Highlights of My Accomplishments</h3>
+            <div class="gridfolder my-3">
+                <div class="items p-1" id="one"><span class="imgholder"><img
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRs_gGIbVg6gu2BMPvoLU59vJTys8BfmAI7qQ&s"
+                            alt=""></span><span class="skilltext px-1"> Fundamental languages for creating and designing
+                        web
+                        pages. Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde aliquam doloremque quam cum
+                        est neque voluptatem officia nam magnam minima adipisci consequuntur reprehenderit dolorum,
+                        itaque maiores asperiores repellat fugiat aut quo amet nesciunt libero sint reiciendis minus?
+                        Tempore, atque minima.</span></div>
+                <div class="items p-1" id="two"><span class="imgholder"><img
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRa4HOew2NmbbPhQ4sdn0YWlv7DdB4v7mRbg&s"
+                            alt=""></span><span class="skilltext px-1">CSS (Cascading Style Sheets) is a styling
+                        language used to describe the presentation of a document written in HTML or XML. Lorem ipsum,
+                        dolor sit amet consectetur adipisicing elit. Adipisci eos autem ipsa dolore ad quibusdam fugit,
+                        dolores doloribus nisi modi minima reiciendis error magnam ipsam illo eveniet soluta, culpa
+                        vero.</span></div>
+                <div class="items p-1" id="three"><span class="imgholder"><img
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQavSUbBpEYqFvanS-P4KQhc3c_QTdTuPckHA&s"
+                            alt=""></span><span class="skilltext px-1"> Essential for creating interactive elements on
+                        websites. Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, modi.</span></div>
+                <div class="items p-1" id="four"><span class="imgholder"><img
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhKp2xS66hObtVQeCQEJ8Y5bzM-GAZUcshvA&s"
+                            alt=""></span><span class="skilltext px-1">Python is a versatile, high-level programming
+                        language known for its readability and simplicity, making it ideal for both beginners and
+                        experienced developers.</span></div>
+                <div class="items p-1" id="five"><span class="imgholder"><img
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKwtDGIg1CuKG_QrTUBPKv-78etELQUUQ93w&s"
+                            alt=""></span><span class="skilltext px-1">MongoDB is a NoSQL database known for its
+                        flexibility and scalability, using a document-oriented model to store data in JSON-like BSON
+                        format. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem quos necessitatibus nihil
+                        corrupti reprehenderit deleniti cumque maiores. Placeat quod, laborum sed possimus iste odio
+                        inventore facilis unde, quaerat id, ratione aliquid dignissimos? Esse necessitatibus quae nam
+                        fugit nostrum.</span></div>
+                <div class="items p-1" id="six"><span class="imgholder"><img
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpI2Jjm8-T95v3XrYhX98qoP3ZAnF0H7ByVQ&s"
+                            alt=""></span><span class="skilltext px-1">Understanding of version control systems like Git
+                        for
+                        code management and collaboration. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Similique, magnam earum explicabo iure blanditiis aspernatur, veritatis nemo nisi odio eum, ex
+                        consequuntur. Vel saepe accusantium mollitia quidem nostrum voluptates itaque esse, commodi id
+                        totam. Nam minus tenetur dignissimos! Voluptatibus, accusamus.</span></div>
+            </div>
+        </div>
+        <hr>
+        <div class="contact my-3 p-1" id="contactMe">
+            <h2 class="text-center" style="font-size: 2.4rem;">Contact Form</h2>
+            <div class="contactfolder my-3">
+                <textarea id="msgfromdev" class="con-text" cols="50"
+                    rows="5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident cupiditate accusamus debitis officiis fugit vero illum necessitatibus quae veniam iure voluptates totam, tempore voluptatum? Dignissimos et officia architecto minus laboriosam alias optio? Velit, maiores. Quo rem veritatis accusamus placeat sequi, voluptatem perferendis hic commodi corporis, dolores non. Reprehenderit perferendis dolore aliquid eos ipsa qui saepe provident atque dignissimos, sunt possimus quis eaque, dicta unde minima totam, eius quaerat quas molestiae. Obcaecati placeat rem neque, reprehenderit voluptates ex qui officia corrupti?</textarea>
+                <input type="text" class="con-text" value="Name : " id="name">
+                <input type="email" class="con-text" value="Email-id :" id="emailid">
+                <input type="date" class="con-text" value="Date : " id="dates">
+                <textarea id="message" cols="30" rows="10" placeholder="Your message starts from here..."
+                    class="con-text"></textarea>
+            </div>
+            <button class="btnContact">Send</button>
+        </div>
+    </main>
+</body>
+
+<script>
+    let btn = document.querySelectorAll(".btn")
+    Array.from(btn).forEach(element => {
+        element.addEventListener("click", () => {
+            if (element.innerHTML === "Visit") {
+                element.innerHTML = "Visited"
+                element.style.backgroundColor = " #8abfe6"
+                element.style.color = "black"
+                element.style.borderRadius = "5px"
+            }
+            else {
+                element.innerHTML = "Visit"
+                element.style.backgroundColor = "darkgray"
+                element.style.color = "black"
+                element.style.borderRadius = "5px"
+            }
+        })
+    });
+</script>
+
+</html>

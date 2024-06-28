@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Playwrite+NG+Modern:wght@100..400&display=swap');
+.flex{
+    display: flex;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.justify-space-between{
+    justify-content: space-between;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.justify-item-center{
+    justify-self: center;
+}
+
+.align-item-center{
+    align-self: center;
+}
+
+.flex-column{
+    flex-direction: column;
+}
+
+.p-1{
+    padding: 1vw;
+}
+
+.px-1{
+    padding: 0 1vw;
+}
+
+.px-2{
+    padding: 0 2vw;
+}
+
+.py-2{
+    padding: 2vh 0;
+}
+
+.my-2{
+    margin: 2vh 0;
+}
+
+.my-3{
+    margin: 3vh 0;
+}
+
+.mx-1{
+    margin: 0 1vw;
+}
+
+.mx-2{
+    margin: 0 2vw;
+}
+
+.mx-3{
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
+.position-relative{
+    position: relative;
+}
+
+.opacity-low{
+    opacity: 0.7;
+}
+
+@media screen and (max-width: 1100px ) {
+    .cards{
+        width: 28%;
+    }
+}
+@media screen and (max-width: 760px) {
+    .contactfolder{
+        grid-template-rows: 2rem 1.2rem 1.2rem 1.2rem 1.2rem;
+    }
+    .con-text{
+        font-size: small;
+    }
+}
+@media screen and (max-width: 580px ) {
+    #myname{
+        font-size: 1.4rem;
+    }
+    .cards{
+        width: 25%;
+    }
+    .cards img{
+        height: 65%;
+    }
+    .skilltext{
+        font-size: 0.8rem;
+    }
+    ul{
+        display: flex;
+        flex-direction: column;
+    }
+    li{
+        padding: 0.5vw;
+    }
+    li a{
+        font-size: small;
+    }
+    .navigationBar{
+        justify-content: flex-start;
+    }
+    .logo{
+        margin: 0px 10vw;
+    }
+}
+
+@media screen and (max-width: 450px ){
+    .contactfolder{
+        margin: 1vh 0;
+    }
+    .con-text{
+        width: 95%;
+    }
+    .btnContact{
+        padding: 2px;
+        font-size: small;
+    }
+}
