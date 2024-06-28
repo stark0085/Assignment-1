@@ -84,6 +84,11 @@
     .cards{
         width: 28%;
     }
+    .myimg{
+        height: 98%;
+        width: 58%;
+        margin: 0 10vw;
+    }
 }
 @media screen and (max-width: 760px) {
     .contactfolder{
@@ -121,6 +126,14 @@
     }
     .logo{
         margin: 0px 10vw;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .myimg{
+        height: 80%;
+        width: 58%;
+        margin: 8vw 10vw;
     }
 }
 

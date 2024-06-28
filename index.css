@@ -58,6 +58,11 @@ section{
     font-size: 2rem;
 }
 
+.myimg{
+    width: 13vw;
+    margin: 0 14vw;
+}
+
 .introBtn{
     padding: 4px;
     color: white;
